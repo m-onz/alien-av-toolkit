@@ -1,0 +1,26 @@
+# Build artifacts
+*.pd_darwin
+*.pd_linux
+*.dll
+*.o
+alien_parser
+seqgen
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*~
+
+patterns_raw.txt
+patterns.txt
