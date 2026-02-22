@@ -10,13 +10,13 @@
 #X obj 68 241 b;
 #X obj 36 339 else/svfilter~ 800 0.44;
 #X obj 115 297 else/rescale~ 500 1500;
-#X obj 36 446 else/plate.rev~ 50 0.6 0.25 0.8 0.3, f 40;
+#X obj 60 446 else/plate.rev~ 50 0.6 0.25 0.8 0.3, f 40;
 #X obj 116 275 osc~ 16;
 #X obj 67 382 else/adsr~ 20 50 0.7 40;
 #X obj 34 27 inlet;
 #X obj 115 243 inlet;
 #X obj 184 242 inlet;
-#X obj 36 471 outlet~;
+#X obj 36 491 outlet~;
 #X connect 0 0 1 0;
 #X connect 0 0 6 0;
 #X connect 0 0 8 0;
@@ -27,6 +27,7 @@
 #X connect 5 0 9 0;
 #X connect 6 0 4 0;
 #X connect 7 0 11 0;
+#X connect 7 0 17 0;
 #X connect 8 0 13 0;
 #X connect 9 0 7 0;
 #X connect 10 0 9 1;

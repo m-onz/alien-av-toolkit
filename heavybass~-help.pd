@@ -4,8 +4,7 @@
 #X floatatom 53 177 5 0 0 0 - - - 0;
 #X floatatom 145 179 5 0 0 0 - - - 0;
 #X obj 53 129 random 24;
-#X obj 53 24 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000
-0 1;
+#X obj 53 24 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 53 44 metro 500;
 #X obj 54 230 *~ 0.6;
 #X floatatom 234 178 5 0 0 0 - - - 0;
