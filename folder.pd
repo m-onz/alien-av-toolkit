@@ -1,5 +1,5 @@
 #N canvas 608 192 721 471 12;
-#X obj 136 148 else/sequencer;
+#X obj 127 149 else/sequencer;
 #X obj 234 109 alien;
 #X obj 134 249 playdir~;
 #X obj 53 35 inlet;
@@ -8,7 +8,9 @@
 #X obj 134 273 outlet~;
 #X obj 302 250 outlet;
 #X floatatom 83 178 5 0 0 0 - - - 0;
+#X obj 357 249 outlet;
 #X connect 0 0 2 0;
+#X connect 0 0 9 0;
 #X connect 1 0 0 1;
 #X connect 1 0 7 0;
 #X connect 2 0 6 0;
