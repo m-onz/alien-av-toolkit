@@ -1,6 +1,6 @@
 #N canvas 460 34 959 710 12;
 #X declare -path else;
-#X obj 78 612 out~;
+#X obj 85 608 out~;
 #X text 500 274 [spectrograph~];
 #X text 555 444 22.05 Khz;
 #X text 207 443 0 hz;
@@ -13,12 +13,13 @@
 #X obj 193 36 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 137 76 metro 1000;
 #X obj 83 213 - 11;
-#X obj 178 206 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 238 117 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 75 240 alien_wavetable2~;
 #X connect 6 0 14 0;
 #X connect 7 0 14 1;
 #X connect 8 0 9 0;
 #X connect 9 0 12 0;
+#X connect 9 0 13 0;
 #X connect 10 0 11 0;
 #X connect 11 0 6 0;
 #X connect 12 0 14 0;
