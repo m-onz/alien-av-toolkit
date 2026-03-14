@@ -1,4 +1,5 @@
 #N canvas 139 187 953 576 12;
+#X declare -path ./lib;
 #X obj 44 319 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 45 344 metro 111;
 #X obj 80 1077 dac~;
@@ -59,6 +60,7 @@
 #X msg 730 166 \; clap (seq 2);
 #X msg 220 736 \; snare (seq - - - - 2 - - -);
 #X obj 70 881 _ kick;
+#X obj 15 19 declare -path ./lib;
 #X connect 0 0 1 0;
 #X connect 1 0 22 0;
 #X connect 3 0 2 0;
