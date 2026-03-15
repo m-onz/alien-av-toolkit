@@ -1,6 +1,8 @@
 
 # alien-av-toolkit
 
+Better documentation and tutorials coming soon!
+
 # Get started
 
 To use alien you will need:
@@ -28,8 +30,6 @@ make install
 Once you have installed everything you should be able to open a new pd patch and create an [alien] object. If you see dashed lines around the edge it means you have not successfully added alien to your Pd path. The Pd path is NOT the same thing as linux environment variables.
 
 That is is how you can get Pd with batteries included and have a powerful algorithmic audio visual starting point
-
-Add more sounds and video's to the alien folder, or reference sounds or artifacts in your local folder.
 
 # Credits
 
