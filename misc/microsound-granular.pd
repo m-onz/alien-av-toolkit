@@ -1,7 +1,7 @@
-#N canvas 0 33 1470 895 10;
-#X msg 77 287 0.00286223;
-#X msg 147 323 -0.00286223;
-#X obj 78 393 hsl 150 15 -0.0143112 0.0143112 0 0 empty speedy empty -2 -8 0 10 #fcfcfc #000000 #000000 0 1;
+#N canvas -220 -1050 1920 1022 10;
+#X msg 77 287 0.00163285;
+#X msg 147 323 -0.00163285;
+#X obj 78 393 hsl 150 15 -0.00816425 0.00816425 0 0 empty speedy empty -2 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X floatatom 77 443 15 0 0 0 - - - 0;
 #X obj 285 470 phasor~;
 #X obj 323 492 r sampleSize;
@@ -22,7 +22,7 @@
 #X obj 249 757 dac~ 1 2;
 #X obj 470 608 vsl 50 100 0 1 0 1 empty empty empty 0 -9 0 10 #fcfcfc #000000 #000000 8300 1;
 #X obj 440 205 metro 120;
-#X obj 494 174 hsl 128 15 50 500 0 1 empty empty granular -2 -8 0 10 #fcfcfc #000000 #000000 8700 1;
+#X obj 494 174 hsl 128 15 50 500 0 1 empty empty granular -2 -8 0 10 #fcfcfc #000000 #000000 2700 1;
 #X obj 440 307 random 1000;
 #X floatatom 440 338 5 0 5 0 - - - 0;
 #X obj 440 359 / 1000;
@@ -31,7 +31,7 @@
 #X obj 590 229 r progress;
 #X floatatom 590 250 5 0 0 0 - - - 0;
 #X obj 687 142 r jitbang;
-#X obj 740 173 hsl 150 15 0 1 0 1 empty empty playhead_location 30 -15 0 10 #fcfcfc #000000 #000000 13700 1;
+#X obj 740 173 hsl 150 15 0 1 0 1 empty empty playhead_location 30 -15 0 10 #fcfcfc #000000 #000000 3600 1;
 #X obj 807 741 hsl 150 15 0 1 0 0 empty empty empty -2 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X floatatom 687 238 5 0 0 0 - - - 0;
 #X obj 650 284 -;
@@ -42,7 +42,7 @@
 #X obj 752 355 s jitbang;
 #X floatatom 678 686 5 0 0 0 - - - 0;
 #X floatatom 680 608 15 0 0 0 - - - 0;
-#X obj 755 242 hsl 150 15 0 1 0 1 empty empty set_jitter_range 30 -15 0 10 #fcfcfc #000000 #000000 14900 1;
+#X obj 755 242 hsl 150 15 0 1 0 1 empty empty set_jitter_range 30 -15 0 10 #fcfcfc #000000 #000000 8800 1;
 #X obj 681 487 r~ progressbar;
 #X obj 707 552 metro 50;
 #X obj 681 581 snapshot~;
@@ -50,16 +50,16 @@
 #X obj 678 661 /;
 #X obj 678 734 s progress;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array channelL 1.54076e+07 float 2;
+#X array channelL 2.7008e+07 float 2;
 #A color 0;
 #A width 2;
-#X coords 0 1 1.54076e+07 -1 200 140 1;
+#X coords 0 1 2.7008e+07 -1 200 140 1;
 #X restore 864 318 graph;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array channelR 1.54076e+07 float 2;
+#X array channelR 2.7008e+07 float 2;
 #A color 0;
 #A width 2;
-#X coords 0 1 1.54076e+07 -1 200 140 1;
+#X coords 0 1 2.7008e+07 -1 200 140 1;
 #X restore 864 495 graph;
 #X msg 579 55 \; pd dsp 1;
 #X obj 579 26 loadbang;
@@ -124,7 +124,7 @@
 #X text 977 870 start streaming audio;
 #X text 979 896 stop streaming audio;
 #X obj 847 857 *~ 0.2;
-#X msg 915 809 open -bytes 4 ~/foo3.wav;
+#X msg 915 809 open -bytes 4 ~/trains2.wav;
 #X connect 0 0 2 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
