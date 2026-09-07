@@ -1,4 +1,4 @@
-#N canvas 97 125 414 222 12;
+#N canvas 97 125 889 583 12;
 #X obj 154 43 alien \$1;
 #X obj 154 18 inlet;
 #X obj 80 43 symbol \$1;
