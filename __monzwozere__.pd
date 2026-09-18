@@ -1,11 +1,11 @@
-#N canvas 530 33 937 895 12;
+#N canvas 2 35 1470 895 12;
 #X declare -lib Gem;
 #X declare -path ./lib;
 #X declare -lib else;
 #X obj -183 -923 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj -57 1120 else/out~;
 #X text -61 1184 be careful with your ears;
-#N canvas 716 33 609 895 visuals 1;
+#N canvas 716 33 609 895 visuals 0;
 #X text 140 9 I can crash Pd if I delete GEM objects without having a GEM window open FYI;
 #N canvas 339 345 450 300 puzzle_effect 0;
 #X obj 42 173 outlet;
@@ -4652,7 +4652,7 @@
 #X obj -17 -397 readsf~ 2;
 #X msg -17 -429 open sounds/intro.wav \, 1;
 #X msg 84 -400 \; all (seq -);
-#N canvas 0 33 1470 895 dubsteppy 1;
+#N canvas 0 33 1470 895 dubsteppy 0;
 #X obj 298 160 s tempo;
 #X obj 54 93 t b b b b b b b b b b b, f 56;
 #X obj 695 -708 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
@@ -7136,7 +7136,7 @@
 #X msg -141 -623 \; monosynth (add (speed (seq 1 - 2 13 -) 4) \$1) \;;
 #X floatatom -137 -649 5 0 0 0 - - - 0;
 #X obj 56 -879 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#N canvas 501 33 960 895 new 1;
+#N canvas 501 33 960 895 new 0;
 #X floatatom 61 293 5 0 0 0 - - - 0;
 #X obj 60 270 random 100;
 #X floatatom 62 207 5 0 0 0 - - - 0;
