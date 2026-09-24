@@ -34,3 +34,8 @@ intro.wav
 sounds/abstract/
 sounds/disco/
 sounds/indie/
+
+# shadergen
+shadergen/.venv/
+shadergen/out/
+__pycache__/
