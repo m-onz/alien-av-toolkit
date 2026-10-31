@@ -591,14 +591,14 @@
 #X text 80 -938 m-onz - genre[fatigue] - https://g--f.net;
 #X obj 181 -805 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #N canvas 63 96 450 300 b 0;
-#X obj 127 114 r clock1;
 #X obj 32 138 alien_bang 4 3;
 #X obj 32 162 outlet;
 #X obj 33 114 inlet;
 #X text 22 22 sync the bang with the next beat - a bit like ableton does;
-#X connect 0 0 1 1;
-#X connect 1 0 2 0;
-#X connect 3 0 1 0;
+#X obj 127 114 r clock;
+#X connect 0 0 1 0;
+#X connect 2 0 0 0;
+#X connect 4 0 0 1;
 #X restore 181 -783 pd b;
 #X obj 99 -421 osc~ 433;
 #X obj 99 -396 *~ 0.133;
