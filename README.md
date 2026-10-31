@@ -1,9 +1,11 @@
 # alien-av-toolkit
 
-My performance patches.
-
 An algorithmic audio/visual toolkitt for [Pure Data](https://puredata.info),
 built on the [`alien`](https://github.com/m-onz/alien) pattern language.
+
+## Batteries included
+
+Includes a visual rig powered by GEM with the ability to play videos, manipulate 3D objects and  apply pix_* effects to the output.
 
 ## Install
 
