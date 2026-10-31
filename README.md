@@ -17,4 +17,6 @@ built on the [`alien`](https://github.com/m-onz/alien) pattern language.
    ```bash
    git clone https://github.com/m-onz/alien-av-toolkit
    ```
+4. Duplicate one of the template patches
+5. Add your sounds and instruments
 
